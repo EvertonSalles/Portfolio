@@ -4,50 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
-    <div class="container">
+    <div class="container max-w-[90%]">
         <header>
-            <div class="icon">...</div>
+            <span>Everton Bruno</span>
                 <div class="nav">
                     <ul>
                        <li><a href="#sobremim">Sobre Mim</a></li> 
+                       <li><a href="#habilidades">Habilidades</a></li> 
                         <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#certificados">Certificados</a></li>
                         <li><a href="#contatos">Contato</a></li>
                     </ul>
                 </div>
         </header>
-                <div class="grid">
-                    <div id="sobremim">
-                    <h1>Sobre Mim</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur dipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?</p>
+                <div id="sobremim">
+                    <h1>Olá, eu sou o</h1>
+                    <h1>Everton Bruno</h1>
+                    <p class="nome"> Desenvolvedor FullStack</p>
+                    <div class="button-sobremim-area">
+                    <a class="buttonsobremim" href="#">Download CV</a>
+                    <a class="buttonsobremim" href="https://www.linkedin.com/in/everton-bruno-sales-gonçalves-0bb770303/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    </div>
+                    <p class="eu">Sou Everton Bruno, desenvolvedor fullstack com foco em front-end, cursando ADS e estudando programação há mais de 1 ano.
+Tenho perfil autodidata, gosto de desafios e de criar interfaces modernas e funcionais.
+Buscando oportunidades para aprender, evoluir e contribuir com projetos reais.</p>
             </div><!--sobremim-->
-            <div id="projetos">
-                    <h1>Projetos</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?</p>
-            </div><!--sobremim-->
-            <div id="certificados">
-                    <h1>Certificados</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi aliquid cupiditate ratione nisi qui illum fugiat eum voluptatum exercitationem rerum ullam ex dol quo?</p>
-            </div><!--sobremim-->
- </div><!--grid-->
-             <footer id="contatos">
-        <h1> Contatos</h1>
-        <i class="fa-solid fa-envelope"></i>
-        <i class="fa-solid fa-phone"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-github"></i>
-    </footer>   
-           
-   
+          
+          
+      <h1 class="habili">Habilidades</h1>
+          <div id="habilidades">
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></div>
+                        <h2>HTML</h2>
+                        
+                    </div>
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"></div>
+                        <h2>CSS</h2>
+                    </div>
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></div>
+                        <h2>Java Script</h2>
+                    </div>
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></div>
+                        <h2>Node</h2>
+                    </div>
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"></div>
+                        <h2>Typescript</h2>
+                    </div>
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"></div>
+                        <h2>Banco de Dados</h2>
+                    </div>
+                    <div class="quadrado">
+                      <div class="logo"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" ></div>
+                        <h2>tailwind Css</h2>
+                    </div>
+                    <div class="quadrado">
+                        <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></div>
+                        <h2>React</h2>
+                    </div>
+            </div><!--habilidades--> 
+            
 
+           <div id="projetos">
+             <div class="h1">  <h1>Projetos</h1> </div>
+                     <div class="area-retangulo">
+                        <div class="retangulo">
+                            <img class="img-retangulo" src="/img/image.png">
+                            <h3>Bateria</h3>
+                            <p class="texto">Mini projeto de uma bateria virtual, cada tecla apertada faz um som diferente.</p>
+                          <div class="card">
+                        <a class="button-project" href="https://github.com/EvertonSalles/Bateria" target="_blank"> <i class="fa-brands fa-github"></i> GitHub</a>
+                          <a class="button-project" href="https://evertonsalles.github.io/Bateria/" target="_blank">Site</a>
+                        </div>
+                       </div> 
+                        <div class="retangulo">
+                            <img class="img-retangulo" src="/img/image.png">
+                            <h3>Bateria</h3>
+                            <p class="texto">Mini projeto de uma bateria virtual, cada tecla apertada faz um som diferente.</p>
+                          <div class="card">
+                        <a class="button-project" href="https://github.com/EvertonSalles/Bateria" target="_blank"> <i class="fa-brands fa-github"></i> GitHub</a>
+                          <a class="button-project" href="https://evertonsalles.github.io/Bateria/" target="_blank">Site</a>
+                        </div>
+                       </div> 
+                        <div class="retangulo">
+                            <img class="img-retangulo" src="/img/image.png">
+                            <h3>Bateria</h3>
+                            <p class="texto">Mini projeto de uma bateria virtual, cada tecla apertada faz um som diferente.</p>
+                          <div class="card">
+                        <a class="button-project" href="https://github.com/EvertonSalles/Bateria" target="_blank"> <i class="fa-brands fa-github"></i> GitHub</a>
+                          <a class="button-project" href="https://evertonsalles.github.io/Bateria/" target="_blank">Site</a>
+                        </div>
+                       </div> 
+                        <div class="retangulo">
+                            <img class="img-retangulo" src="/img/image.png">
+                            <h3>Bateria</h3>
+                            <p class="texto">Mini projeto de uma bateria virtual, cada tecla apertada faz um som diferente.</p>
+                          <div class="card">
+                        <a class="button-project" href="https://github.com/EvertonSalles/Bateria" target="_blank"> <i class="fa-brands fa-github"></i> GitHub</a>
+                          <a class="button-project" href="https://evertonsalles.github.io/Bateria/" target="_blank">Site</a>
+                        </div>
+                       </div> 
+                     
+
+
+           </div><!--projetos-->
+           
+          <footer id="contatos">
+        <h1 class="h1footer"> Contatos</h1>
+        <div class="contato-card">
+
+        <a href="mailto:evertonbrunosales@gmail.com" class="teste">
+        <div class="circulo">    
+        <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>E-mail</p>
+        <p>evertonbrunosales@gmail.com</p>
+        </a>
+
+        <a href="https://wa.me/5511945116658" class="teste" target="_blank">
+        <div class="circulo">    
+       <i class="fa-solid fa-phone"></i>
+        </div>
+        <p>Telefone</p>
+        <p>(11)94511-6658</p>
+        </a>
+
+        <a href="https://github.com/EvertonSalles" class="teste" target="_blank">
+        <div class="circulo">    
+        <i class="fa-brands fa-github"></i>
+        </div>
+        <p>Github</p>
+        <p>@EvertonSalles</p>
+        </a>
+
+        
+       
    
-      
+        
+        </div><!--contato-->
+    </footer>   
 </div>
-<script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
-<!--vou colocar uns 6 certificados, html, js, banco de dados, node, ts, tailwind e zod eu acho-->
