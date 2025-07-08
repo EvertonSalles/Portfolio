@@ -53,12 +53,14 @@ h1{
 }
 
 #sobremim{
-   padding-top: 100px;
-   gap: 10px;
+   padding-top: 200px;
+   padding-bottom: 280px;
+   gap: 30px;
     display: flex;
     flex-direction: column;
     width: 72%;
    margin: 0 auto;
+   
 }
 
 .nome{
@@ -111,7 +113,7 @@ h1{
  gap: 7px;
  width: 70%;
  margin: 0 auto;
-
+ padding-bottom: 200px;
  
 }
 
@@ -132,6 +134,7 @@ h1{
     
 }img{
     height: 30px;
+    
 }h2{
     font-size: 16px;
 }
@@ -179,16 +182,19 @@ h1{
    display: flex;
    flex-direction: column;
    align-items: center;
-   margin-bottom: 40px;
-   margin-top: 40px;
+   gap: 20px;
 }
 
 .img-retangulo{
     background-color: yellow;
-   height: 230px;
-    width: 210px;
+    height: 230px;
+    width: 326px;
     margin-top: 20px;
+    object-fit: cover;
+    border-radius: 8px;
     
+}#img-retangulo{
+    width: 200px;
 }
 
 .button-project{
@@ -207,10 +213,9 @@ h1{
 .contato-card{
     display: flex;
     align-items: center;
-   justify-content: space-evenly;
-   width: 91vw;
-  
-
+   justify-content: space-between;
+   width: 50vw;
+  margin-right: 80px;
 }
 
 .teste{
@@ -235,10 +240,11 @@ footer{
     display: flex;
     flex-direction: column;
    padding: 20px;
-   
+   align-items: center;
+   justify-content: center;
 
 }.h1footer{
     
-     margin:  auto;
+     margin: 0 auto;
      margin-bottom: 40px;
 }
