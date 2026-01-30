@@ -55,6 +55,23 @@ ul, a {
     justify-content: space-evenly;
 }
 
+span{
+    font-size: 1.50rem;
+}
+
+.modal{
+    display: none;
+}
+.icone-fa{
+    display: none;
+}
+
+
+.fa-solid fa-bars{
+    color: #A89DB5;
+    
+}
+
 h1 {
     font-size: 26px;
     color: #C8B8DC;
@@ -108,11 +125,11 @@ h1 {
 }
 
 .habili {
-    margin-top: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+
 }
 
 #habilidades {
@@ -270,6 +287,7 @@ footer {
     align-items: center;
     justify-content: center;
     color: #A89DB5;
+    margin-top: 8rem;
 }
 
 .h1footer {
@@ -322,26 +340,53 @@ footer{
 
 @media (max-width: 768px) {
   header {
-    flex-direction: column;
-    padding: 10px;
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .nav ul {
+    display: none;
     flex-direction: column;
     align-items: center;
   }
+.icone-fa{
+    display: inline-block;
+
+}
+
+.modalul{
+    display: flex;
+    background-color: #0A0A0A; 
+    gap: 0.75rem;   
+    flex-direction: column;
+    height: 7rem;
+    width: 100vw;
+    position: fixed;
+    top: 66px;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
 
   #sobremim {
-    width: 90%;
-    padding-top: 140px;
-    padding-bottom: 180px;
+   gap: 3rem;
+   
   }
 
+ .habili{
+    display: flex;
+    padding: 10px;
+    
+ }
   #habilidades {
     grid-template-columns: 1fr;
-    gap: 20px;
   }
+
+.h1 h1{
+   padding: 10px;
+    margin-bottom: 1rem;
+}
 
   .area-retangulo {
     grid-template-columns: 1fr;
@@ -364,34 +409,35 @@ footer{
   }
 
   h1 {
-    font-size: 22px;
+    font-size: 2.25rem;
     text-align: center;
+    line-height: 0rem;
   }
 
   .nome {
-    font-size: 18px;
+    font-size: 1.25rem;
     text-align: center;
   }
 
   .eu {
-    font-size: 14px;
+   font-size: 18px;
     text-align: center;
     line-height: 1.6;
   }
 
 footer{
-    width: 100%;
+    margin-top: 6rem;
 }
 
 .teste{
-    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
 }
   .contato-card {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 20px;
-    margin-right: 0;
-    width: 100%;
+    flex-direction:column;
+    align-items: flex-start;
+   
   }
 }
