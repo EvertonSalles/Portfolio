@@ -2,7 +2,7 @@
 
 Olá! Este é meu portfólio pessoal, onde apresento meus projetos, habilidades e trajetória como desenvolvedor web.
 
-👉 Veja o site ao vivo: https://evertonsalles.github.io/Portfolio/
+👉 Veja o site ao vivo: https://portfolio-phi-nine-j9imex5bot.vercel.app
 
 ---
 
