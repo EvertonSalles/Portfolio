@@ -2,8 +2,12 @@
 
 Olá! Este é meu portfólio pessoal, onde apresento meus projetos, habilidades e trajetória como desenvolvedor web.
 
+<<<<<<< HEAD
 👉 Veja o site ao vivo: https://portfolio-phi-nine-j9imex5bot.vercel.app
 
+=======
+👉 Veja o site ao vivo:  https://portfolio-phi-nine-j9imex5bot.vercel.app
+>>>>>>> e9e04b163433bfc5da174f87697d38bf5b111241
 
 ---
 
